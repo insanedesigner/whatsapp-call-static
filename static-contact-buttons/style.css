@@ -1,0 +1,29 @@
+.scb-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.scb-buttons a {
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+.scb-buttons a.scb-call {
+    background-color: #34b7f1;
+}
+
+.scb-buttons a:hover {
+    opacity: 0.9;
+}
